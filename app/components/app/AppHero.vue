@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
-r
+
 
 <template>
    <div class="relative mx-auto max-w-7xl">
@@ -22,40 +22,51 @@ r
       </div>
       <!-- !SECTION: Blob -->
 
+      
+
       <div
          class="relative z-10 mb-16 hidden grid-cols-1 gap-8 md:grid md:grid-cols-3"
       >
-         <div class="col-end-2 flex items-center justify-end">
+         <!-- <div class="col-end-2 flex items-center justify-end">
             <div class="max-w-sm text-center md:text-right">
                <p class="leading-relaxed text-gray-600">
-                  Welcome to Clever - Your Intelligent Medical Assistant. Get
-                  the Experience the future of healthcare technologies with
-                  Clever.
+                  Validated by thousands of clinical datasets, 
+                  our AI empowers physicians to identify malignancies 
+                  with unprecedented speed and accuracy.
                </p>
             </div>
          </div>
          <div class="col-start-3 flex items-center justify-start">
             <div class="max-w-sm text-center md:text-left">
                <p class="leading-relaxed text-gray-600">
-                  Our advanced AI-driven platform provides precise medical
-                  insights, personalized recommendations, and round-the-clock
-                  assistance.
+                  o beyond standard screenings. Our deep-learning algorithms 
+                  analyze complex patterns to support early-stage cancer detection 
+                  and clinical decision-making.
                </p>
             </div>
-         </div>
+         </div> -->
       </div>
 
       <div class="relative z-10 text-center">
          <h1
-            class="mb-12 text-6xl leading-tight font-bold tracking-wide text-gray-900 md:text-7xl lg:text-8xl"
+            class="mb-12 text-5xl leading-tight font-bold tracking-wide text-gray-900 md:text-3xl lg:text-5xl"
          >
-            AI-Powered Assistant
+            The future of healthcare, simplified
          </h1>
+         <div class="flex items-center justify-center pb-10">
+            <div class="max-w-sm text-center">
+               <p class="leading-relaxed text-gray-600">
+                  Manage your practice, access patient insights, and 
+                  streamline your workflow. Everything you need to provide 
+                  better care is now in one place.
+               </p>
+            </div>
+         </div>
 
          <button
             class="transform rounded-full bg-linear-to-r from-emerald-400 to-emerald-500 px-8 py-4 text-lg font-medium text-white shadow-xl transition hover:scale-105 hover:from-emerald-500 hover:to-emerald-600 hover:shadow-2xl"
          >
-            Get Started
+            Start for Free
          </button>
       </div>
    </div>

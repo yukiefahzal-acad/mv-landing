@@ -1,13 +1,13 @@
 <script setup lang="ts"></script>
 
 <template>
-   <nav class="container mx-auto px-6 py-6">
+   <nav class="container mx-auto px-6 py-6 bg-white/50 backdrop-blur-sm sticky top-0 z-40">
       <div class="flex items-center justify-between">
          <div class="flex items-center gap-2">
-            <Icon name="lucide:x" />
+            <Icon name="lucide:stethoscope" />
             <span class="text-xl font-semibold">MedicVerse</span>
          </div>
-
+         
          <div class="hidden items-center gap-8 md:flex">
             <a
                href="#"

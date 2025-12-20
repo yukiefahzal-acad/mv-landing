@@ -12,18 +12,18 @@
                   <h3
                      class="text-4xl leading-tight font-bold md:text-5xl lg:text-6xl"
                   >
-                     Comprehensive and Highly
+                     Smart Tools to Support 
                      <span class="text-gray-400"
-                        >Advanced Tools and Capabilities.</span
+                        >Every Step of Your Practice.</span
                      >
                   </h3>
                </div>
 
-               <div class="flex items-start justify-end">
+               <div class="flex items-start justify-end col-end-1">
                   <button
-                     class="rounded-full border-2 border-gray-900 px-8 py-3 font-semibold text-gray-900 transition hover:bg-gray-900 hover:text-white"
+                     class="transform rounded-full bg-linear-to-r from-emerald-400 to-emerald-500 px-8 py-4 text-lg font-medium text-white shadow-xl transition hover:scale-105 hover:from-emerald-500 hover:to-emerald-600 hover:shadow-2xl"
                   >
-                     Get Started
+                     Get Started                                                                                                                                                                                                                                                                                                                                                                                                                   
                   </button>
                </div>
             </div>
@@ -35,17 +35,16 @@
                         <div
                            class="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600"
                         >
-                           👤
+                           <Icon name="lucide:person-standing" />
                         </div>
                      </div>
                      <div>
                         <h4 class="mb-2 text-xl font-bold text-gray-900">
-                           Health Tracking
+                           Smart Patient History
                         </h4>
                         <p class="leading-relaxed text-gray-600">
-                           Monitor your progress with comprehensive health
-                           tracking features that keep you informed about your
-                           vital signs and overall health goals.
+                           Access organized patient data instantly, from previous 
+                           diagnoses to medication history, all in one secure place.
                         </p>
                      </div>
                   </div>
@@ -55,16 +54,16 @@
                         <div
                            class="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600"
                         >
-                           ⚙️
+                           <Icon name="lucide:brain-circuit" />
                         </div>
                      </div>
                      <div>
                         <h4 class="mb-2 text-xl font-bold text-gray-900">
-                           Symptom Checker
+                           AI Diagnostic Support
                         </h4>
                         <p class="leading-relaxed text-gray-600">
-                           Get instant insights on potential health concerns
-                           with our advanced symptom checking algorithm.
+                           A reliable second opinion at your fingertips. 
+                           Our AI helps flag anomalies in screenings to assist with early detection.
                         </p>
                      </div>
                   </div>
@@ -74,16 +73,16 @@
                         <div
                            class="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600"
                         >
-                           📅
+                           <Icon name="lucide:workflow" />
                         </div>
                      </div>
                      <div>
                         <h4 class="mb-2 text-xl font-bold text-gray-900">
-                           Appointment Schedule
+                           Automated Workflow
                         </h4>
                         <p class="leading-relaxed text-gray-600">
-                           Easily manage and schedule your medical appointments
-                           with our intuitive booking system.
+                           Reduce administrative fatigue. Let the app handle 
+                           scheduling and follow-ups so you can focus on clinical care.
                         </p>
                      </div>
                   </div>
@@ -93,16 +92,16 @@
                         <div
                            class="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-100 text-emerald-600"
                         >
-                           🤝
+                           <Icon name="lucide:shield-plus" />
                         </div>
                      </div>
                      <div>
                         <h4 class="mb-2 text-xl font-bold text-gray-900">
-                           Fulltime Assistance
+                           Secure Data Insights
                         </h4>
                         <p class="leading-relaxed text-gray-600">
-                           Get 24/7 support from our dedicated healthcare
-                           professionals and AI assistants.
+                           View practice trends and patient outcomes through encrypted, 
+                           high-level analytics designed for healthcare privacy.
                         </p>
                      </div>
                   </div>

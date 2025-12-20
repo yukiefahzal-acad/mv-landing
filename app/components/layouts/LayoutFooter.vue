@@ -6,14 +6,13 @@
          <div class="mx-auto max-w-7xl">
             <div class="mb-12">
                <p class="mb-8 text-center text-gray-400 md:text-left">
-                  Stay connected and get the best AI-Powered healthcare
-                  solutions.
+                  Ready to simplify your practice? Start your 14-day free trial today.
                </p>
 
                <h3
                   class="mb-12 text-center text-6xl leading-tight font-bold tracking-wider md:text-left md:text-7xl lg:text-8xl"
                >
-                  START CLEVER
+                  JOIN MEDICVERSE
                </h3>
             </div>
 
