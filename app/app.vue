@@ -1,18 +1,28 @@
-<template>
-   <div>
-      <NuxtRouteAnnouncer />
-      <div class="min-h-screen bg-white">
-         <LayoutNavbar />
+<script setup lang="ts">
+import LayoutMFooter from './components/layouts/LayoutMFooter.vue';
 
-         <main class="relative container mx-auto px-6 py-36">
-            <AppHero />
-         </main>
-         <AppAbout />
-         <AppInsight />
-         <AppFeatures />
-         <AppPricing />
-         <AppContact />
-         <LayoutFooter />
+</script>
+
+<template>
+   <!-- <UApp> -->
+      <div>
+         <NuxtRouteAnnouncer />
+         <div class="min-h-screen bg-white">
+            <LayoutNavbar />
+   
+            <main class="relative container mx-auto px-6 py-36">
+               <AppHero />
+            </main>
+            <AppAbout />
+            <AppScroll />
+            <!-- <AppInsight /> -->
+            <AppFeatures />
+            <LayoutMFooter />
+            <AppSolutions />
+            <AppPricing />
+            <!-- <AppContact /> -->
+            <LayoutFooter />
+         </div>
       </div>
-   </div>
+   <!-- </UApp> -->
 </template>

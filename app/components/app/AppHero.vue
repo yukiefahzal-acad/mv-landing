@@ -2,7 +2,7 @@
 
 
 <template>
-   <div class="relative mx-auto max-w-7xl">
+   <div id="home" class="relative mx-auto max-w-7xl">
       <!-- SECTION: Blob -->
       <div class="absolute top-1/2 left-1/2 z-0 -translate-1/2">
          <div class="relative size-[300px] md:size-[500px]">
@@ -22,12 +22,10 @@
       </div>
       <!-- !SECTION: Blob -->
 
-      
-
-      <div
+      <!-- <div
          class="relative z-10 mb-16 hidden grid-cols-1 gap-8 md:grid md:grid-cols-3"
       >
-         <!-- <div class="col-end-2 flex items-center justify-end">
+         <div class="col-end-2 flex items-center justify-end">
             <div class="max-w-sm text-center md:text-right">
                <p class="leading-relaxed text-gray-600">
                   Validated by thousands of clinical datasets, 
@@ -44,21 +42,22 @@
                   and clinical decision-making.
                </p>
             </div>
-         </div> -->
-      </div>
+         </div>
+      </div> -->
 
       <div class="relative z-10 text-center">
          <h1
-            class="mb-12 text-5xl leading-tight font-bold tracking-wide text-gray-900 md:text-3xl lg:text-5xl"
+            class="mb-6 text-5xl leading-tight font-extrabold tracking-wide text-gray-900 md:text-3xl lg:text-5xl"
          >
-            The future of healthcare, simplified
+             The Command Center for Your Entire Medical Universe.
          </h1>
          <div class="flex items-center justify-center pb-10">
-            <div class="max-w-sm text-center">
+            <div class="max-w-xl text-center">
                <p class="leading-relaxed text-gray-600">
-                  Manage your practice, access patient insights, and 
-                  streamline your workflow. Everything you need to provide 
-                  better care is now in one place.
+                  Ubah Kesibukan Menjadi Keteraturan. 
+                  <strong>Medic<span class="text-emerald-500">Verse</span></strong> 
+                  menyelaraskan pasien, dokter, dan operasional klinik Anda dalam satu orbit yang sempurna. 
+                  Generasi baru Sistem Manajemen Klinik telah hadir.
                </p>
             </div>
          </div>
@@ -66,7 +65,14 @@
          <button
             class="transform rounded-full bg-linear-to-r from-emerald-400 to-emerald-500 px-8 py-4 text-lg font-medium text-white shadow-xl transition hover:scale-105 hover:from-emerald-500 hover:to-emerald-600 hover:shadow-2xl"
          >
-            Start for Free
+            <div
+               class="flex font-bold h-8 items-center"
+            >
+               <Icon name="lucide:rocket" />
+               <p class="ml-2">
+                  Uji Coba Penerbangan 
+               </p> 
+            </div>
          </button>
       </div>
    </div>
